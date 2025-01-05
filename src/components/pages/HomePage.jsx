@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import useWordStore from "../stores/WordStore"; // Custom store for word and hint state
-import Button from "../Button/button";
+import Button from "../Button/Button";
 
 function HomePage() {
     const { setWordList, setWord, setHint } = useWordStore(); // Extend to setHint in the store
