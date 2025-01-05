@@ -1,6 +1,6 @@
 import React from "react";
 import TextInput from "../TextInput/TextInput";
-import Button from "../Button/button";
+import Button from "../Button/Button";
 
 function TextInputForm({
     inputType,
